@@ -1,0 +1,23 @@
+.container{
+    width: 1140px;
+    height: 1228px;
+    top: 2171px;
+    left: 145px;
+    border-radius: 14px;
+    padding-left: 150px;
+}
+
+.head{
+    display: contents;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 437px;
+    height: 77px;
+    top: 1441px;
+    left: 512px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+}

@@ -1,0 +1,31 @@
+.container{
+    padding-left: 150px;
+    width: 1139px;
+    height: 551px;
+    top: 1441px;
+    left: 146px;
+    margin-top: 200px;
+
+}
+
+.head{
+
+    display: contents;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 437px;
+    height: 77px;
+    top: 1441px;
+    left: 512px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}

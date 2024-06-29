@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+       
+}
+
+.navbarList {
+    display: flex;
+    gap: 36px;
+    margin-inline: auto;
+    list-style-type: none;
+}
+
+.navbarLink {
+    color: white;
+    text-decoration: none;
+    /* transition: var(--transition-1); */
+}

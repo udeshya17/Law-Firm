@@ -1,0 +1,93 @@
+.home {
+    background: rgba(17, 17, 17, 1);
+    width: 1135px;
+    height: 836px;
+    padding-top: 53px;
+    padding-left: 153px;
+    padding-right: 153px;
+
+}
+
+.text {
+    color: white;
+}
+
+.heading {
+    color: white;
+    width: 571px;
+    /* height: 194px; */
+    top: 250px;
+    left: 156px;
+}
+
+.headOne {
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.headTwo {
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.para {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    text-align: left;
+    width: 560px;
+    height: 99px;
+    top: 480px;
+    left: 158px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 30%;
+}
+
+.heroMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding-top: 70px;
+}
+
+.chip {
+    background: rgba(29, 29, 29, 1);
+    width: 438px;
+    height: 74px;
+    border-radius: 43px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.chipContent {
+    width: auto; /* Adjust width as needed */
+    height: 74px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.nestedChip {
+    background-color: yellow !important;
+    width: 137px;
+    height: 62px !important;
+    border-radius: 43px !important;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.nestedChipLabel {
+    opacity: 0.1; 
+    display: flex;
+    gap: 3px;
+    
+}
