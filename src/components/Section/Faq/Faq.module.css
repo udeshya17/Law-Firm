@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: left; 
+    padding-left: 150px; 
+}
+  
+.leftColumn {
+    width: 30%; 
+}
+  
+.rightColumn {
+    margin-top: 50px !important;
+    width: 564px;
+    height: 540px;
+    top: 5108px;
+    left: 748px;
+    margin-left: 180px;
+}
+  
+.head {
+    color: white;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+    text-align: left;
+    margin-bottom: 20px; 
+}
+  
+.accordion {
+    margin-bottom: 50px; 
+    background-color: transparent !important;
+    color: white !important;
+}
+  
+.subTitle {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    text-align: left;
+    opacity: 30%;
+    color: white;
+}
+
+.icon {
+    background-color: black;
+    color:#E3B748;
+    border-radius: 50%;
+}

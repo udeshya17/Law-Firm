@@ -1,0 +1,41 @@
+.container{
+    border-radius: 14px;
+    padding-left: 150px;
+    width: 1137px;
+    height: 626px;
+    top: 3585px;
+    left: 154px;  
+}
+
+.subContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    color: white;
+    width: 374px;
+    height: 154px;
+    top: 3585px;
+    left: 155px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+    text-align: left;   
+}
+
+.images{
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.imageOne{
+    margin-right: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}

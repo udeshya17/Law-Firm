@@ -1,9 +1,10 @@
 .container{
-    width: 1140px;
-    height: 1228px;
-    top: 2171px;
-    left: 145px;
+    width: 1156px;
+    height: 425px;
+    top: 4397px;
+    left: 154px;
     border-radius: 14px;
+    margin-top: 200px;
     padding-left: 150px;
 }
 
@@ -12,19 +13,20 @@
     justify-content: center;
     text-align: center;
     color: white;
-    width: 437px;
+    width: 253px;
     height: 77px;
-    top: 1441px;
-    left: 512px;
+    top: 4397px;
+    left: 598px;
     font-family: Inter;
     font-size: 54px;
     font-weight: 600;
     line-height: 77.23px;
 }
 
-.images {
+.cardsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+    justify-content: space-between;
+    gap: 16px; 
+  }
+  

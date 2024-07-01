@@ -5,14 +5,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Image from '../../assets/gift-icon.png';
 import styles from './Card.module.css';
 
-export default function MediaCard({ title, bgColor }) {
+export default function MediaCard({ title, bgColor, image, description, showButton = true, subTitle }) {
   return (
     <Card sx={{ maxWidth: 345, backgroundColor: bgColor, border: '2px solid #2E2E2E' }} className={styles.card}>
       <CardMedia
-        image={Image}
+        image={image}
         title="gift icon"
         className={styles.image}
       />
@@ -20,15 +19,20 @@ export default function MediaCard({ title, bgColor }) {
         <Typography gutterBottom variant="h5" component="div" className={styles.head}>
           {title}
         </Typography>
+        <Typography gutterBottom variant="subtitle2" component="div" className={styles.head}>
+          {subTitle}
+        </Typography>
         <Typography variant="body2" className={styles.para}>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.
+            {description}
         </Typography>
       </CardContent>
-      <CardActions>
+      {showButton && (
+        <CardActions>
         <Button variant="contained" className={styles.button}>
           Read more
         </Button>
       </CardActions>
+      )}
     </Card>
   );
 }

@@ -1,0 +1,52 @@
+.cards {
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    background-color: transparent !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .cards:hover {
+    background-color: #E3B748 !important; 
+    .title{
+        color: #373737;
+    }
+    .subTitle{
+        color: #000000 !important;
+
+    }
+  }
+  
+  .image {
+    width: 68px !important;
+    height: 68px !important;
+    margin-right: 40px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  .subTitle {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white !important;
+    opacity: 0.3; /* Adjust opacity as needed */
+  }
+  
